@@ -52,11 +52,11 @@
                 <div class="col-12">
                     <ul class="list-inline text-lg-right text-center">
                         <li class="list-inline-item">
-                            <a href="mailto:info@companyname.com">info@companyname.com</a>
+                            <a href="{{route('about')}}">info@stl-portal.com</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="callto:1234565523">Call Us Now:
-                                <span class="ml-2"> 123 456 5523</span>
+                            <a href="callto:01876489694">Call Us Now:
+                                <span class="ml-2"> +88 01876 489694</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
@@ -74,7 +74,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="{{route('home')}}">
-                    <img src="{{asset('/')}}website/images/logo.png" alt="logo">
+{{--                    <img src="{{asset('/')}}website/images/logo.png" alt="logo">--}}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -290,7 +290,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-5">
                     <p class="text-white text-center text-md-left">
-                        <span class="text-primary">Bizpro</span> &copy; 2017 All Right Reserved</p>
+                        <span class="text-primary">Shafin</span> &copy; 2017 All Right Reserved</p>
                 </div>
                 <div class="col-lg-6 col-md-7">
                     <ul class="list-inline text-center text-md-right">
